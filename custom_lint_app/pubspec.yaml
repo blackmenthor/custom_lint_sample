@@ -1,0 +1,28 @@
+name: custom_lint_app
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  bloc:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  custom_lint:
+  custom_lint_rule:
+    path: ../custom_lint_rule
+
+flutter:
+
+  uses-material-design: true
